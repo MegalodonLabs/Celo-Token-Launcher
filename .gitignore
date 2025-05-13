@@ -1,0 +1,33 @@
+# Ignora dependências
+node_modules/
+.cache/
+frontend/node_modules/
+
+# Hardhat outputs
+artifacts/
+cache/
+coverage/
+
+# VSCode config
+.vscode/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Build outputs
+dist/
+build/
+frontend/dist/
+frontend/build/
+
+# Ambiente
+.env
+.env.*
+!.env.example
